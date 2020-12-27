@@ -1,0 +1,15 @@
+---
+#### YAML inventory file
+
+all:
+  children:
+    kubernetes_masters:
+      hosts:
+        kubemaster01.anasjabri.com
+        kubemaster02.anasjabri.com
+    kubernetes_workers:
+      hosts:
+        kubeworker01.anasjabri.com
+        kubeworker02.anasjabri.com
+        kubeworker03.anasjabri.com
+        kubeworker04.anasjabri.com
